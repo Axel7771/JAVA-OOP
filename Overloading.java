@@ -6,6 +6,7 @@ public class Overloading {
     public String str;
     public char ch;
 
+    //Constructors
     Overloading(){
 
     }
@@ -28,6 +29,8 @@ public class Overloading {
         this.str = str;
         this.a = a;
     }
+
+    //Overloading Methods
 
     public void max(int a, int b, int c){
 
@@ -62,8 +65,9 @@ public class Overloading {
         {
             System.out.println("Max value is : " + ch);
         }
-        else
+        else 
             System.out.println("Max Value is : " + b);
     }
 
 }
+
