@@ -8,9 +8,9 @@ public class Car {
     //Constructors
     Car(){
 
-        make = "Lexus";
-        model = "NX 200C";
-        year = 2015;
+        make = "Ford";
+        model = "Exlporer";
+        year = 2009;
 
     }
     Car(String make, String model, int year){
